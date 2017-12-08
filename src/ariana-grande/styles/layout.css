@@ -1,0 +1,144 @@
+/*
+HTML 5 Template Name: Ariana-Grande
+File: Layout CSS
+Authors: Mitsopoulou Eirini, Pantelidou Kyriaki Nektaria,Papadopoulou Konstantina
+Author URL: http://users.auth.gr/emitsopou/ariana-grande/
+*/
+
+html{overflow-y:scroll;}
+
+body{margin:0; padding:0; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; color:#979797; background-color:#FFFFFF;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+aside{display:block; padding-top:50px;margin-left:50px;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'“ '; font-size:26px;}
+q:after{content:' „'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:1200px; margin:0 auto; padding:0; text-align:left;}
+
+.row1, .row1 a{color:#979797; background-color:#FFFFFF;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row3{border-top:1px solid #DEDEDE;}
+.row3, .row3 a{color:#979797; background-color:#FFFFFF;}
+
+div.wrapper2{display:block;margin:0 auto; width:100%;text-align:left;}
+.r1{color:#FFFFFF; background-color:#1E1E1E;}
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:1200px;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:30px; text-transform:uppercase;margin-top:10px;margin-bottom:20px; color:#000000;}
+
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#000000; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'“ '; font-size:26px;}
+blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header { padding: 20px 0;}
+#header #hgroup { float: left; margin: 0 0 20px 0;}
+#header nav {display: block; float: right;margin: 10px 0 0 0;  padding: 30px 0; color: #C0BAB6;background-color: #FFFFFF;}
+#header nav ul {padding: 0 20px;}
+#header nav li {display: inline;margin-right: 15px; text-transform: uppercase;}
+#header nav li.last { margin-right: 0;}
+#header nav li a {color: #000000; background-color: #FFFFFF;}
+#header nav li a:hover {color: #ffbeef; background-color: #FFFFFF;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:40px 0;}
+#container section{display:block; width:100%; margin:0 0 50px 0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right; text-transform:uppercase; font-size:smaller; font-weight:bold;}
+
+
+/* ------Main Content-----*/
+
+#container #content{float:left; width:750px; line-height:1.8em;}
+#container #content #latest{}
+#container #content #latest ul{margin:30px; padding:30px; list-style:none;}
+#container #content #latest ul li{display:block; width:100%; margin-bottom:70px;}
+#container #content #latest ul li.last{margin-bottom:30px;}
+#container #content #latest ul li article{}
+#container #content #latest ul li article figure{}
+#container #content #latest ul li article h1{float:right; margin-right:50px;color: #ffbeef;font-size:14px;}
+#container #content #latest ul h1{float:left;margin: .5em 0;margin-top:10px;margin-right:50px;color:#000000;font-size:20px;font-weight:bold;}
+#container #content #latest ul li article h2{float:left;margin: .5em 0;margin-top:10px;margin-right:50px;color:#000000;font-size:18px;font-weight:bold;}
+#container #content #latest ul h3{margin-top:10px; margin-bottom:15px; padding-bottom:2px; border-bottom:1px solid #000000; font-size:22px;}
+#container #content #latest ul li article h4{margin-bottom:-15px; font-size:20px; text-align:center; margin-left:-120px; color:#666666;}
+#container #content #latest ul li article h5{font-weight:normal; text-transform:none; margin-bottom:-15px; font-size:20px; text-align:center; margin-left:-120px; color:#666666;}
+#container #content #latest ul li article p{display:block; float:left; font-size:16px;margin-right:50px;}
+#container #content #latest ul li article figure img{padding:15px;float:left; width:163px; height:150px; margin:0px; padding:2.2px; border:1px solid #666666;}
+#container #content #latest ul li figure img.albumfoto{width:220px; height:220px; margin-bottom:-5px;}
+#container #content #latest ul li figure img.biofoto{width:750px; height:220px; margin-bottom:-5px;}
+#container #content #latest ul li article iframe{padding-top:30px;}
+#container #content #latest ul li article nav{ display: block;  float: left;  font-weight:bold;text-decoration:none; border-bottom:1px dotted #666666;}
+#container #content #latest ul li article nav p{ display: inline;color:#000000;  margin-right: 20px; text-transform: uppercase;}
+#container #content #latest ul li article nav p a{padding: 5px 8px;color: #FFFFFF;  background-color: #000000; font-size:14px; font-weight:normal;}
+#container #content #latest ul li article {width:750px;}
+#container #content #latest nav{display:block;padding:2.2px;width:750px;height:60px;}
+#container #content #latest nav ul {padding: 0px;float:left;margin:0px; padding-top:5px;padding-bottom:0px;border-bottom:1px solid #000000;}
+#container #content #latest nav li{display:inline;}
+#container #content #latest nav li h1{width:80px;float:left;padding-left:0;color: #666666;font-size:14px;font-weight:bold; text-transform:none;}
+#container #content #latest nav li h2{width:200px;float:left;padding-left:0px;color: #666666;font-size:14px;font-weight:normal;text-transform:none;}
+#container #content #latest nav li h5{width:203.5px;float:left;padding-left:40px;padding-right:0px;color: #666666;font-size:14px;font-weight:normal;text-transform:none;}
+#container #content #latest nav li a h6{width:43px;float:right;margin-right:0px;color: #666666;font-size:14px;font-weight:normal;text-transform:none;padding:0.5px 4px; border:2px solid #000000;}
+#container #content #latest nav li a h6:hover {color: #FFFFFF; background-color: #000000;}
+
+/* ------Right Column-----*/
+
+#container #right_column{float:right; width:350px; margin-top:-10px;}
+#container #right_column h2.title{margin-top:30px; margin-bottom:15px; padding-bottom:2px; border-bottom:1px solid #000000;}
+#container #right_column h3.subtitle{margin-top:7px; padding-top:7px; margin-bottom:5px; padding-bottom:2px; font-size:small; color:#666666;}
+#container #right_column figure div img{width:67px; height:70px; margin-bottom:3px;}
+#container #right_column div nav{ display: block; float: right; margin-top:7px; padding-top:0px; margin-bottom:5px; padding-bottom:20px; color: #C0BAB6;background-color: #FFFFFF;}
+#container #right_column div nav ul{padding: 0 20px;}
+#container #right_column div nav li {display: inline; text-transform: uppercase;}
+#container #right_column div nav li.last{margin-right: 0;}
+#container #right_column div nav li figure a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; background:url("../images/orange_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px dotted #666666;}
+#container #right_column div nav li figure a:hover{color:#FF9900; background-color:#FFFFFF;}
+/*----------------------------------------------Footer-------------------------------------*/
+#footer{padding-top:10px;padding-bottom:30px;width:1300px;}
+#footer nav{display:block;  padding-top:10px;}
+#footer nav ul{padding: 0px 28px; }
+#footer nav li{display:inline;text-transform: uppercase;}
+#footer nav li h1{display:inline;padding-left: 35px;font-size:16px;font-weight:bold;font-style:normal;text-transform:uppercase;color:#FFFFFF;}
+#footer nav li h2{display:inline;padding-left: 174px;font-size:16px;font-weight:bold;font-style:normal;text-transform:uppercase;color:#FFFFFF;}
+#footer nav li h3{display:inline;padding-left: 165px;font-size:16px;font-weight:bold;font-style:normal;line-height:30px;text-transform:uppercase;color:#FFFFFF;}
+#footer nav li.item1{float:left;padding-left:30px;}
+#footer nav li.item2{float:left;padding-left: 100px;}
+#footer nav li.item3{float:right;padding-right:30px;}
+#footer nav li figure img.img1{width:400px; height:300px;}
+#footer nav li figure img.img2{width:400px; }
+#footer p{padding-top:10px;margin-right:60px;margin-left:900px;font-size:16px;}
+#footer2 p{margin:0;padding: 10px 0;background-color:#000000;}
+.fl_center{text-align:center;}
